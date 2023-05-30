@@ -146,11 +146,11 @@ Overall, functional programing in JavaScript can help to create more maintainabl
 
 JavaScript functions have some differences compared to traditional functions in other languages. Here are some differences:
 
-1. First-class functions: functions are considere first-class citizens, meaning they can be assigned to variables, passed as arguments to other functions, and returned as values from functions. This allows for powerful functional programming techniques that are not available in many other languages.
+1. First-class functions: functions are considered first-class citizens, meaning they can be assigned to variables, passed as arguments to other functions, and returned as values from functions. This allows for powerful functional programming techniques that are not available in many other languages.
 
-1. Dynamic Typing: JavaScript is a dynamically typed language, which means that the data type of a variable is determined at runtime. This also applies to function arguments and return types, which can be of any type, This is different from statically typed languages like Jave or C++, where the data types must be explicitly defined. Typescript begam its life as an attemp to bring traditional object-oriented types to JavaScript so that the programmers at Microsoft could bring traditional object-oriented program to the web. As it has developed, TS's type system has evolved to model code written by native JavaScripters. The resulting system is powerful, interesting and messy.
+1. Dynamic Typing: JavaScript is a dynamically typed language, which means that the data type of a variable is determined at runtime. This also applies to function arguments and return types, which can be of any type, This is different from statically typed languages like Java or C++, where the data types must be explicitly defined. Typescript began its life as an attempt to bring traditional object-oriented types to JavaScript so that the programmers at Microsoft could bring traditional object-oriented program to the web. As it has developed, TS's type system has evolved to model code written by native JavaScripters. The resulting system is powerful, interesting and messy.
 
-1. Closures: JavaScript supports closures, which are function that have access to variables in their outer scope, even after the outer scipe has returned. This allows for powerful and flexible programming techniques, such as creating private variables or memoization.
+1. Closures: JavaScript supports closures, which are function that have access to variables in their outer scope, even after the outer scope has returned. This allows for powerful and flexible programming techniques, such as creating private variables or memoization.
 
 1. Function hoisting: In JavaScript, function declarations are hoisted to the top or their scope, meaning they can be called before they are defined. This is not possible in many other languages, where functions must be defined before they are used.
 
@@ -158,7 +158,7 @@ These differences make JavaScript functions unique and powerful, but they also r
 
 ## Higher-order functions
 
-A higher-order function is a function that takes one or more functions as arguments and or returns a functiom as its result. In oter words, it's a function that operates o other functinos,
+A higher-order function is a function that takes one or more functions as arguments and or returns a function as its result. In other words, it's a function that operates on other functinos,
 
 Higher-order functions can be used to compose programs in JavaScript by allowing us to create more abstract and reusable code. Here are some examples:
 
@@ -190,8 +190,8 @@ const secretPassword() {
 
 const passwordGame = secretePassword();
 passwordGame.guessPassword('undeuxtroisuiop') // false
-passwordGame.guessPassword('DEADBEEF');
-passwordGame.guessPassword('077E2FA27'); // false
+passwordGame.guessPassword('DEADBEEF'); // false
+passwordGame.guessPassword('077E2FA27'); // true
 ```
 
 ## Immutability
@@ -221,7 +221,7 @@ Overall, using immutable data in JavaScript can help create more predictable and
 
 Recursion is a programming concept where a function calls itself repeatedly until a certain condition is met. In JavaScript, recursion can be used to solve complex problems that involve iterating over nested data structures or performing multiple operations on a set of data.
 
-To understand recursion in JavaScript, let's consider an example of a factorial function that calculates the factorial of a given number. The factorial of a number is the product of all positive integers less than or equal to that number. For instance, the factorial of 4 is 4*3*2*1, which is equal to 24.
+To understand recursion in JavaScript, let's consider an example of a factorial function that calculates the factorial of a given number. The factorial of a number is the product of all positive integers less than or equal to that number. For instance, the factorial of 4 is 4\*3\*2*1, which is equal to 24.
 
 Here's how a recursive function can be used to calculate the factorial of a number:
 
@@ -242,8 +242,6 @@ Recursion can also be used to traverse nested data structures such as trees and 
 Overall, recursion is a powerful programming concept that can simplify complex problems by breaking them down into smaller subproblems and solving them recursively. However, it's important to be careful when using recursion to avoid infinite loops and stack overflow errors.
 
 ## Practice and examples
-
-Sure, here are the functional programming practices in JavaScript in Markdown format:
 
 1. Use Pure Functions: A pure function is a function that returns the same output for the same input and has no side effects. This means that it does not modify any variables outside of its own scope. Using pure functions makes it easier to reason about the behavior of your code and avoid unexpected bugs. 
 
